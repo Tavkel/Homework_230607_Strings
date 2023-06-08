@@ -20,8 +20,7 @@ public class Main {
     //С именем fullName — для хранения Ф. И. О. сотрудника в формате "Фамилия Имя Отчество".
     //Выведите в консоль фразу: «ФИО сотрудника — …».
     //В качестве данных для задачи используйте "Ivanov Ivan Ivanovich".
-    public static void task1()
-    {
+    public static void task1() {
         String firstName = "Ivan";
         String middleName = "Ivanovich";
         String lastName = "Ivanov";
@@ -34,8 +33,7 @@ public class Main {
     //Напишите программу, которая изменит написание Ф. И. О. сотрудника с "Ivanov Ivan Ivanovich" на полностью заглавные буквы.
     //В качестве строки с исходными данными используйте строку fullName.
     //Результат программы выведите в консоль в формате: "Данные ФИО сотрудника для заполнения отчета — …"
-    public static void task2()
-    {
+    public static void task2() {
         String fullName = "Ivanov Ivan Ivanovich";
         System.out.println("Данные ФИО сотрудника для заполнения отчета — " + fullName.toUpperCase());
     }
@@ -44,9 +42,8 @@ public class Main {
     //Система, в которой мы работаем, не принимает символ «ё». Напишите программу, которая заменяет символ «ё» на символ «е».
     //В качестве исходных данных используйте строку fullName и данные в ней — "Иванов Семён Семёнович".
     //Выведите результат программы в консоль в формате: «Данные ФИО сотрудника — ...».
-    public static void task3()
-    {
+    public static void task3() {
         String fullName = "Иванов Семён Семёнович";
-        System.out.println("Данные ФИО сотрудника — " + fullName.replace('ё', 'е').replace('Ё','Е'));
+        System.out.println("Данные ФИО сотрудника — " + fullName.replace('ё', 'е').replace('Ё', 'Е'));
     }
 }
